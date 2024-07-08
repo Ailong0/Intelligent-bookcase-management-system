@@ -1,2 +1,4 @@
 # Intelligent-bookcase-management-system
 基于stc89c52的智能书报柜管理系统
+
+更改了RC522库函数,可以同时支持连个RC522模块

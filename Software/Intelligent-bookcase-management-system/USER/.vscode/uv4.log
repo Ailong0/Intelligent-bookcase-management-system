@@ -1,0 +1,41 @@
+*** Using Compiler 'V5.05 update 1 (build 106)', folder: 'E:\software_setup\Keil_v5\setup\ARM\ARMCC\Bin'
+Build target 'Template'
+compiling menu.c...
+..\HARDWARE\MENU\menu.h(16): warning:  #1295-D: Deprecated declaration Information_Entry - give arg types
+  void Information_Entry();
+..\HARDWARE\MENU\menu.h(17): warning:  #1295-D: Deprecated declaration Information_Query - give arg types
+  void Information_Query();
+..\HARDWARE\MENU\menu.h(18): warning:  #1295-D: Deprecated declaration Library_Card_Binding - give arg types
+  void Library_Card_Binding();
+..\HARDWARE\MENU\menu.h(19): warning:  #1295-D: Deprecated declaration Borrow_a_Book - give arg types
+  void Borrow_a_Book();
+..\HARDWARE\MENU\menu.h(20): warning:  #1295-D: Deprecated declaration Return_a_Book - give arg types
+  void Return_a_Book();
+..\HARDWARE\MENU\menu.c(154): warning:  #940-D: missing return statement at end of non-void function "Vacancy_Search"
+  }
+..\HARDWARE\MENU\menu.c(217): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(cStr, "RDID:%02X%02X%02X%02X", Books[i].BookRFID[0], Books[i].BookRFID[1], Books[i].BookRFID[2], Books[i].BookRFID[3]);
+..\HARDWARE\MENU\menu.c(253): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  			sprintf(show, "Book_RFID:%02X%02X%02X%02X", Books[i].BookRFID[0], Books[i].BookRFID[1], Books[i].BookRFID[2], Books[i].BookRFID[3]);
+..\HARDWARE\MENU\menu.c(258): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(show, "Brrwr_ID:%d", Books[i].Borrower_ID);
+..\HARDWARE\MENU\menu.c(260): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(show, "Brrwr_RFID:%02X%02X%02X%02X", Books[i].BorrowerRFID[0], Books[i].BorrowerRFID[1], Books[i].BorrowerRFID[2], Books[i].BorrowerRFID[3]);
+..\HARDWARE\MENU\menu.c(320): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(cStr, "RDID:%02X%02X%02X%02X", ucArray_ID[0], ucArray_ID[1], ucArray_ID[2], ucArray_ID[3]);
+..\HARDWARE\MENU\menu.c(362): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(cStr, "RDID:%02X%02X%02X%02X", ucArray_ID[0], ucArray_ID[1], ucArray_ID[2], ucArray_ID[3]);
+..\HARDWARE\MENU\menu.c(388): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(cStr, "RDID:%02X%02X%02X%02X", ucArray_ID_Borrower[0], ucArray_ID_Borrower[1], ucArray_ID_Borrower[2], ucArray_ID_Borrower[3]);
+..\HARDWARE\MENU\menu.c(458): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(cStr, "RDID:%02X%02X%02X%02X", ucArray_ID[0], ucArray_ID[1], ucArray_ID[2], ucArray_ID[3]);
+..\HARDWARE\MENU\menu.c(480): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *restrict"
+  				sprintf(cStr, "RDID:%02X%02X%02X%02X", ucArray_ID_Borrower[0], ucArray_ID_Borrower[1], ucArray_ID_Borrower[2], ucArray_ID_Borrower[3]);
+..\HARDWARE\MENU\menu.c(520): warning:  #1-D: last line of file ends without a newline
+  }
+..\HARDWARE\MENU\menu.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=13304 RO-data=8032 RW-data=228 ZI-data=2468  
+FromELF: creating hex file...
+"..\OBJ\Template.axf" - 0 Error(s), 16 Warning(s).
+Build Time Elapsed:  00:00:01
